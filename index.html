@@ -3,18 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV-Laura-Gonon</title>
+    <title>CV Laura Gonon</title>
   </head>
 
   <body>
-    <header>
+    <header id="header">
       <h1>LAURA GONON</h1>
       <h2>Communication graphique</h2>
       <img height="300" src="photo-cv.png" alt="Photo de profil" />
+
+      <nav>
+        <a href="#Contactez-moi">Contactez-moi</a>
+        <a href="#Informations">Informations</a>
+        <a href="#Parcours professionnel">Parcours professionnel</a>
+        <a href="#Formation">Formation</a>
+        <a href="#Hard skills">Compétences</a>
+      </nav>
     </header>
 
     <main>
-      <section>
+      <section id="Contactez-moi">
+        <h2>CONTACTEZ-MOI</h2>
+        <form>
+          <div>
+            <label>Nom</label>
+            <input type="text" />
+          </div>
+          <div>
+            <label>Adresse mail</label>
+            <input type="email" />
+          </div>
+          <div>
+            <label>Message</label>
+            <textarea></textarea>
+          </div>
+          <div>
+            <button type="submit">Envoyer</button>
+            <button type="reset">Effacer</button>
+          </div>
+        </form>
+      </section>
+
+      <section id="Informations">
         <h2>INFORMATIONS</h2>
         <ul>
           <li>Téléphone : 06.95.53.28.75</li>
@@ -24,7 +54,7 @@
         </ul>
       </section>
 
-      <section>
+      <section id="Parcours professionnel">
         <h2>PARCOURS PROFESSIONNEL</h2>
         <h3>Stage communication et évènementiel</h3>
         <h4>bp France - Cergy Saint-Christophe <em>(Mai-Juin 2024)</em></h4>
@@ -55,7 +85,7 @@
         </ul>
       </section>
 
-      <section>
+      <section id="Formation">
         <h2>FORMATION</h2>
         <h3>Bachelor chef de projets digitaux</h3>
         <h4>Normandie Web School - Rouen <em>(Depuis 2024, en cours)</em></h4>
@@ -83,7 +113,7 @@
     </main>
 
     <aside>
-      <section>
+      <section id="Hard skills">
         <h2>HARD SKILLS</h2>
         <ul>
           <li>Photoshop</li>
@@ -104,6 +134,8 @@
       </section>
     </aside>
 
-    <footer>©2024 - CV Laura Gonon</footer>
+    <footer>
+      ©2024 - CV Laura Gonon <a href="#header">Revenir en haut</a>
+    </footer>
   </body>
 </html>
